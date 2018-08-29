@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressView">
+        //最外圆半径
+        <attr name="radius" format="dimension"/>
+        //圆环尺寸
+        <attr name="ringSzie" format="dimension"/>
+        //圆环颜色
+        <attr name="ringColor" format="color"/>
+        //圆的颜色
+        <attr name="circleColor" format="color"/>
+        //已走过进度的颜色
+        <attr name="reachColor" format="color"/>
+        //未走过进度的颜色
+        <attr name="unReachColor" format="color"/>
+        //文字进度颜色
+        <attr name="textColor" format="color"/>
+        //文字进度字体大小
+        <attr name="textSzie" format="dimension"/>
+        //进度条/环的类型
+        <attr name="CircleProgressViewType" format="string"/>
+        //文字进度的类型
+        <attr name="CircleProgressTextType" format="string"/>
+    </declare-styleable>
+
+</resources>
